@@ -23,9 +23,7 @@ This project highlights my ability to **integrate AI APIs, design robust backend
 ---
 
 ## 🛠️ Tech Stack  
-- **Backend:** Spring Boot, Spring AI  
-- **Frontend (optional):** React.js (if integrated)  
-- **Database:** MySQL / PostgreSQL (if used)  
+- **Backend:** Spring Boot, Spring AI     
 - **Build Tool:** Maven  
 - **Version Control:** Git & GitHub  
 
@@ -50,6 +48,6 @@ This project highlights my ability to **integrate AI APIs, design robust backend
 **Vaibhav Patil**  
 - [LinkedIn](https://linkedin.com/in/vaibhavpatil2003)  
 - [GitHub](https://github.com/vaibhav-patil-01)  
-- **Email:** [vaibhavvpatil8@gmail.com](mailto:vaibhavvpatil8@gmail.com)  
+- [vaibhavvpatil8@gmail.com](mailto:vaibhavvpatil8@gmail.com)  
 
 ---
