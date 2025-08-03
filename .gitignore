@@ -1,0 +1,57 @@
+# Root-Level .gitignore
+
+# ---------------------------
+# General Ignored Files
+# ---------------------------
+*.log
+*.tmp
+*.swp
+*.bak
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# Ignore IDE and Editor Files
+# ---------------------------
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# ---------------------------
+# Java / Spring Boot Ignore
+# ---------------------------
+target/                 # Maven or Gradle build directory
+*.class                 # Compiled bytecode files
+*.jar                   # Executable jar files
+*.war                   # Web archive files
+*.ear                   # Enterprise archive files
+*.db                    # Embedded database files (H2, etc.)
+hs_err_pid*             # JVM crash logs
+!src/main/resources/    # Keep resource files, ignore generated ones
+
+# ---------------------------
+# Node.js / React Ignore
+# ---------------------------
+node_modules/           # Installed npm dependencies
+npm-debug.log           # Debug log file
+yarn-debug.log
+yarn-error.log
+.env                    # Environment variables
+dist/                   # Production build folder (React)
+build/                  # Build output folder
+.cache/                 # Caching folders
+coverage/               # Test coverage output
+public/static/          # Generated static files
+*.lock                  # npm or yarn lock files
+*.gz                    # Compressed files
+package-lock.json       # Optional, if you use yarn instead of npm
+
+# ---------------------------
+# OS and System Files
+# ---------------------------
+*.~                     # Backup files
+*.bak
+*.swp
+*.sublime-workspace
