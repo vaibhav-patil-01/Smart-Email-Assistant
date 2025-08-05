@@ -97,8 +97,7 @@ smart-email-assistant/
 ├── README.md
 └── LICENSE
 
-
-
+```
 ---
 
 ## 🔗 Connect With Me  
