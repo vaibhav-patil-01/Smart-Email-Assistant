@@ -14,33 +14,39 @@ This project highlights my ability to **integrate AI APIs, design robust backend
 
 ---
 
-## 👨‍💻 My Role  
-- **Designed & developed** the backend using **Spring Boot** with clean, modular architecture.  
-- **Integrated Spring AI** for natural language processing to generate email drafts & suggestions.  
-- **Built REST APIs** for email content generation, summaries, and suggestions.  
-- **Implemented security best practices** for safe and secure API usage.  
+# Smart Email Assistant  
+![Java](https://img.shields.io/badge/Java-17-blue) 
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.0-green)
+![React](https://img.shields.io/badge/React-18-blue)
+![Google Gemini](https://img.shields.io/badge/AI-Google%20Gemini-orange)
+![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-yellow)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
+
+An **AI-powered Smart Email Assistant** that integrates directly into **Gmail** using a Chrome extension, enabling users to generate **personalized, context-aware email replies** with a single click.  
+Built using **Spring Boot**, **Spring AI (Google Gemini)**, **ReactJS**, and **Chrome Extension APIs**.
 
 ---
 
-## 🛠️ Tech Stack  
-- **Backend:** Spring Boot, Spring AI     
-- **Build Tool:** Maven  
-- **Version Control:** Git & GitHub  
+## ✨ Features
+- **AI-Powered Replies** – Generates context-aware, tone-customized email responses using Google Gemini.  
+- **Gmail Integration** – Adds an “AI Reply” button directly in Gmail for instant use.  
+- **Full-Stack Architecture** – Backend (Spring Boot + Spring AI), Frontend (ReactJS), and Chrome Extension.  
+- **Customizable Tone** – Adjust reply tone (formal, casual, etc.) via prompts.  
+- **Plug & Play Extension** – Works inside Gmail without disrupting workflow.  
 
 ---
 
-## ✨ Key Features  
-- **AI-powered Email Generation** – Draft professional emails in seconds.  
-- **Smart Summarization** – Quickly summarizes long email threads.  
-- **Context-aware Suggestions** – Suggests subject lines & responses.  
-- **RESTful API** – Easily integrate with other applications.  
+## 🛠️ Tech Stack
+- **Backend**: Java 17, Spring Boot, Spring AI  
+- **AI**: Google Gemini  
+- **Frontend**: ReactJS  
+- **Browser Integration**: Chrome Extension (Content Scripts, MutationObserver)  
+- **Build Tools**: Maven, npm  
+- **Version Control**: Git & GitHub  
 
 ---
 
-## 📈 Impact & Learning  
-- Gained **hands-on experience** in building **AI-driven enterprise applications**.  
-- Learned **Spring AI integration** & how to use LLMs for real-world solutions.  
-- Practiced **scalable backend design** and **API development best practices**.  
+## 📂 Project Structure
 
 ---
 
