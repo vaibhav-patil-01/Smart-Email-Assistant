@@ -48,6 +48,7 @@ Built using **Spring Boot**, **Spring AI (Google Gemini)**, **ReactJS**, and **C
 
 ## 📂 Project Structure
 
+```bash
 smart-email-assistant/
 │
 ├── backend/                              # Spring Boot backend
@@ -95,6 +96,7 @@ smart-email-assistant/
 ├── .gitignore
 ├── README.md
 └── LICENSE
+
 
 
 ---
