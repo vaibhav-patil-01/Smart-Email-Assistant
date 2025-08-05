@@ -48,6 +48,22 @@ Built using **Spring Boot**, **Spring AI (Google Gemini)**, **ReactJS**, and **C
 
 ## 📂 Project Structure
 
+smart-email-assistant/
+│
+├── backend/ # Spring Boot backend (AI & API services)
+│ ├── src/main/java/... # Controllers, Services, Configurations
+│ └── resources/ # application.properties
+│
+├── frontend/ # ReactJS frontend
+│ ├── public/ # Static assets
+│ └── src/ # Components & UI logic
+│
+├── chrome-extension/ # Chrome extension scripts
+│ ├── content.js # Injects AI Reply button into Gmail
+│ └── manifest.json # Extension configuration
+│
+└── README.md # Project documentation
+
 ---
 
 ## 🔗 Connect With Me  
