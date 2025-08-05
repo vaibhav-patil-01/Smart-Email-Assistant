@@ -50,19 +50,52 @@ Built using **Spring Boot**, **Spring AI (Google Gemini)**, **ReactJS**, and **C
 
 smart-email-assistant/
 │
-├── backend/ # Spring Boot backend (AI & API services)
-│ ├── src/main/java/... # Controllers, Services, Configurations
-│ └── resources/ # application.properties
+├── backend/                              # Spring Boot backend
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/com/smartemail/      # Java code
+│   │   │   │   ├── controller/           # REST controllers
+│   │   │   │   │   └── EmailController.java
+│   │   │   │   ├── service/              # Business logic
+│   │   │   │   │   └── EmailService.java
+│   │   │   │   ├── config/               # Configurations (CORS, AI, etc.)
+│   │   │   │   │   └── GeminiConfig.java
+│   │   │   │   └── SmartEmailAssistantApplication.java
+│   │   │   └── resources/
+│   │   │       ├── application.properties
+│   │   │       └── static/               # (Optional) static assets
+│   │   └── test/                         # JUnit tests
+│   │       └── EmailServiceTest.java
+│   └── pom.xml                           # Maven build file
 │
-├── frontend/ # ReactJS frontend
-│ ├── public/ # Static assets
-│ └── src/ # Components & UI logic
+├── frontend/                             # React frontend
+│   ├── public/
+│   │   ├── index.html
+│   │   └── favicon.ico
+│   └── src/
+│       ├── components/                   # Reusable components
+│       │   ├── GmailButton.js            # AI reply button
+│       │   └── ReplyPreview.js           # Modal to preview AI reply
+│       ├── pages/                        # App pages (if multi-page)
+│       │   └── Home.js
+│       ├── App.js
+│       ├── index.js
+│       └── styles/                       # CSS files
+│           └── App.css
+│   └── package.json
 │
-├── chrome-extension/ # Chrome extension scripts
-│ ├── content.js # Injects AI Reply button into Gmail
-│ └── manifest.json # Extension configuration
+├── chrome-extension/                     # Chrome extension
+│   ├── content.js                        # Injects AI button into Gmail
+│   ├── background.js                     # Handles events & API calls
+│   ├── popup.html                        # (Optional) Extension popup UI
+│   ├── popup.js
+│   ├── styles.css
+│   └── manifest.json                     # Extension configuration
 │
-└── README.md # Project documentation
+├── .gitignore
+├── README.md
+└── LICENSE
+
 
 ---
 
